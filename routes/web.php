@@ -13,6 +13,7 @@ route::get('/bienvenido', [bienvenidoController::class, 'bienvenido']);
 
 route::get('/alumnos', [AlumnoController::class, 'alumnos']);
 
+route::get('/inicio', [bienvenidoController::class, 'inicio']);
 
     
 
